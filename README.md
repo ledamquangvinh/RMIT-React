@@ -27,3 +27,10 @@ with yarn
 ```
     $ yarn create vite <project-name> -- --template react-ts
 ```
+
+### 3 - Run react typescript project 
+Install node-module
+```shell
+    $ yarn install 
+```
+Build and Run project react -typescript on browser
