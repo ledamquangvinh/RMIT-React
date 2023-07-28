@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "iphone",
+    "price": 1000
+  },
+  {
+    "id": 2,
+    "name": "ipad",
+    "price": 1500
+  },
+  {
+    "id": 3,
+    "name": "macbook",
+    "price": 4000
+  },
+  {
+    "id": 4,
+    "name": "iMax",
+    "price": 2000
+  },
+  {
+    "id": 5,
+    "name": "iphone 15",
+    "price": 3000
+  },
+  {
+    "id": 6,
+    "name": "ipad Pro 6",
+    "price": 40000
+  },
+  {
+    "id": 7,
+    "name": "macbook Pro",
+    "price": 40000
+  },
+  {
+    "id": 8,
+    "name": "iMax Pro",
+    "price": 20000
+  }
+]
