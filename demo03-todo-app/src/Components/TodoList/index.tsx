@@ -16,7 +16,6 @@ export const TodoList : React.FC = () => {
           You have nothing to do!
         </h1>
       </div> 
-
     )
   }
 
