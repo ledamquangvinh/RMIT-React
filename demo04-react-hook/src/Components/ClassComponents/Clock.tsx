@@ -37,11 +37,11 @@ export default class Clock extends React.Component<DataProps, DataState> {
 
   timer_stop = () => {
     clearInterval(this.timeID)
-    console.log("Stop")
+    //console.log("Stop")
   }
 
   timer_start = () => {
-    console.log("Start")
+    //console.log("Start")
     this.timeID = setInterval(() => this.timer_tick(), 1000)
   }
 
