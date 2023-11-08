@@ -1,38 +1,32 @@
 import styled from "styled-components"
 import masthead from '../../img/bg-masthead.jpg'
+import * as Styles from '../../components/Styles'
 
 
-const H1 = styled.h1`
-font-size: 4rem;
-font-weight: 700;
-text-align: center;
-`
+const H1 = styled(Styles.H1)``
 
-const Section = styled.section`
+const Section = styled(Styles.Section)`
   background: url(${masthead});
   background-position: center center;
   background-size: cover;
-  height: 100vh;
 `
 
-const Content = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-item: center;
-  height: 100vh;
-  row-gap: 1rem;
-`
+const Content = styled(Styles.Content)``
 
-const A = styled.a `
+const A = styled(Styles.A) `
   background-color: #17667f;
   color: #ffffff;
-  padding: 1.25rem 2rem;
-  border-radius: 5px;
-  text-decoration: none;
-  width: 100px;
-  margin: auto;
+
+  ${Styles.Button}
+
+  &:hover {
+    background-color: #ffffff;
+    color: #17667f;
+    border: 1px solid #17667f
+  }
 `
+
+
 const Callout : React.FC = () => {
   return(
     <Section>

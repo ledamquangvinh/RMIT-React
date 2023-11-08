@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import Action from './pages/Action';
 import Service from './pages/Sevices';
 import Callout from './pages/Callout';
+import Portfolio from './pages/Portfolio';
+
 function App() {
 
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/service' element={<Service/>}/>
+        <Route path='/callout' element={<Callout/>}/>
+        <Route path='/portfolio' element={<Portfolio/>}/>
       </Routes>
     </Router>
   )
