@@ -6,6 +6,7 @@ import Action from './pages/Action';
 import Service from './pages/Sevices';
 import Callout from './pages/Callout';
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 function App() {
 

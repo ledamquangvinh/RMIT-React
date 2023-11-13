@@ -34,21 +34,17 @@ export const List = styled.div `
   margin-top: 1rem;
 `
 
-export const ListItem = styled.div `
-  width: 50%;
-  height: 50%;
-  position: relative;
-  overflow: hidden;
-`
+
 
 export const Caption = styled.div `
   width: 100%;
   height: 100%;
   position: absolute;
-  color: #fff;
+  color: #ffffff;
   background-color: rgba(33, 37, 41, 0.5);
   transition: clip-path 0.25s ease-out, background-color 0.7s;
   clip-path: inset(0rem);
+  font-size: 1rem;
   z-index: 1;
 `
 
@@ -68,6 +64,24 @@ export const IMG = styled.img `
   clip-path: inset(-1px);
   width: 100%;
   height: 100%;
+`
+
+export const ListItem = styled.div `
+  width: 50%;
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    ${Caption} {
+      background-color: rgba(33, 37, 41, 0.75);
+      clip-path: inset(2rem);
+    }
+
+    ${IMG} {
+      clip-path: inset(2rem);
+    }
+  }
+  
 `
 
 export const H1 = styled.h1 `
@@ -132,3 +146,5 @@ export const P = styled.p `
   font-size: 1.2rem;
   color: #ffffff;
 `
+
+
