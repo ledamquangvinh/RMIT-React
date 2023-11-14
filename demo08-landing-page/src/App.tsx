@@ -7,6 +7,7 @@ import Service from './pages/Sevices';
 import Callout from './pages/Callout';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
         <Route path='/service' element={<Service/>}/>
         <Route path='/callout' element={<Callout/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
+        <Route path='/action' element={<Action/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/footer' element={<Footer/>}/>
+
       </Routes>
     </Router>
   )

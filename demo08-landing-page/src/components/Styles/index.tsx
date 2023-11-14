@@ -87,7 +87,12 @@ export const ListItem = styled.div `
 export const H1 = styled.h1 `
   font-size: 4rem;
   font-weight: 700;
-  
+`
+
+export const H2 = styled.h2 `
+  color: #fffffff;
+  font-size: 3rem;
+  font-weight: 700;
 `
 
 export const H3 = styled.h3`
